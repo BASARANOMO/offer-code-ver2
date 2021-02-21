@@ -8,3 +8,6 @@
 
 ## Python解法2
 stack反转
+
+## C++解法1
+stack
