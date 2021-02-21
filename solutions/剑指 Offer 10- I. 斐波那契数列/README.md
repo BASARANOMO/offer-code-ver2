@@ -2,3 +2,4 @@
 [LeetCode-cn链接](https://leetcode-cn.com/problems/fei-bo-na-qi-shu-lie-lcof/)
 
 ## 解法1
+DP
