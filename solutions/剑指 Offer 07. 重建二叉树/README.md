@@ -3,3 +3,9 @@
 
 ## 解法1
 Recursive
+
+## 解法2
+Recursive改进
+
+## 解法3
+Iterative
