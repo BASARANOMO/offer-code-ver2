@@ -5,7 +5,7 @@ class Solution:
         for row in matrix:
             if (row[0] > target) or (row[-1] < target):
                 continue
-            else: # binary search
+            else:  # binary search
                 if self.bin_search(row, target):
                     return True
         return False

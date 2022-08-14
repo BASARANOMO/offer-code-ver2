@@ -4,11 +4,11 @@ class Solution:
             return False
         n, m = len(matrix), len(matrix[0])
         for i in range(n):
-            for j in range(m-1, -1, -1):
+            for j in range(m - 1, -1, -1):
                 if matrix[i][j] == target:
                     return True
                 elif matrix[i][j] > target:
                     m -= 1
                 elif matrix[i][j] < target:
                     break
-        return False    
+        return False

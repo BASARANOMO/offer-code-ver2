@@ -1,5 +1,4 @@
 class MovingAverage:
-
     def __init__(self, size: int):
         """
         Initialize your data structure here.
@@ -14,6 +13,7 @@ class MovingAverage:
         self.total_val += val
         self.q.append(val)
         return self.total_val / len(self.q)
+
 
 # Your MovingAverage object will be instantiated and called as such:
 # obj = MovingAverage(size)
